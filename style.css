@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* RESET CSS */
+html{
+    font-family: 'Century Gothic';
+}
+.first-section{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/first-section.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.first-section .container{
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.two-half{
+    width: 50%;
+}
+.one-half{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.first-section  img{
+    width: 100%;
+}
+.button-transparent-yellow{
+    background: none;
+    border: none;
+    color: white;
+    border: 3px #fdbb15 solid;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Century Gothic';
+}
+.button-transparent-yellow:hover{
+    background: #fdbb15;
+}
+.menu{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    max-width: 1280px;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.menu-icons{
+    font-size: 20px;
+}
+.menu-icons i {
+    padding-right: 10px;
+}
+.menu-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.menu-login{
+    font-size: 30px;
+}
+
+.second-section h1{
+    color: #434343;
+}
+ul{
+    list-style-type: disc;
+    padding-left: 40px;
+    line-height: 35px;
+}
+li::marker{
+    color: #fdbb15;
+}
+
+ol{
+    padding-left: 40px;
+    line-height: 35px;
+    list-style: numeric;
+}
+dl{
+    padding-left: 20px;
+    line-height: 35px;
+}
+dt{
+    font-weight: bold;
+    color: #fdbb15;
+}
+.second-section .container{
+    padding: 50px 0;
+}
+
+footer{
+    color: white;
+    background-color: #434343;
+    padding: 10px 20px;
+    font-weight: bold;
+}
